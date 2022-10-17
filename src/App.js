@@ -1,14 +1,14 @@
 import './App.css';
-
+import Logo from './logo/logo';
+import GetStarted from './components/GetStarted/GetStarted';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-   hi
-        </p>
-       
-      </header>
+      <div className='main'>
+      <Logo/>
+   <GetStarted />
+       </div>
+
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.Options {
+color:  #828181;
+    display: flex;
+width: 100%;
+flex-direction: row;
+justify-content: center;
+
+}
+.Option {
+background-color: #C3C8C0;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+    border-radius: 20px;
+    padding: 0.9em;
+    width: 15%;
+margin: 1em;
+}
+svg{
+font-size: 50px;
+color: #828181;
+}
+p{
+    margin: 0;
+}
